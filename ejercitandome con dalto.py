@@ -1,0 +1,5 @@
+frase = input('Decimw una frase y te lo  cuento tardarias en decirtelo: ')
+cantidad_de_separaciones= frase.split(" ")
+cantidad_de_palabras = len(cantidad_de_separaciones)
+print(f'Dijiste {cantidad_de_palabras}  palabras , tardarias en decir {cantidad_de_palabras/2} segundos en decirlo' )
+print(f'Dalto lo Diria en {cantidad_de_palabras/2*1,3} segundos en decirlo')
